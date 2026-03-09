@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web Pro - IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MiProyecto<span>IA</span></div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section class="hero">
+            <h1>Desarrollo Web Profesional</h1>
+            <p>Este sitio utiliza una arquitectura separada: HTML5, CSS3 y JavaScript.</p>
+            <button id="btn-mensaje">Explorar Proyecto</button>
+        </section>
+
+        <section id="servicios" class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Estructura Semántica</h3>
+                    <p>Uso de etiquetas HTML5 para mejor SEO y accesibilidad.</p>
+                </div>
+                <div class="card">
+                    <h3>Diseño Adaptativo</h3>
+                    <p>CSS3 moderno con Grid y Flexbox para móviles y PC.</p>
+                </div>
+                <div class="card">
+                    <h3>Interactividad</h3>
+                    <p>JavaScript puro para mejorar la experiencia del usuario.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Proyecto Creado con Asistencia de Gemini</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

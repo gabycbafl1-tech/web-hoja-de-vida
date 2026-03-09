@@ -1,0 +1,21 @@
+// Esperar a que el DOM esté cargado
+document.addEventListener('DOMContentLoaded', () => {
+    
+    const boton = document.getElementById('btn-mensaje');
+
+    // Evento de clic para el botón
+    boton.addEventListener('click', () => {
+        alert('¡Hola! Este mensaje viene de JavaScript y confirma que la arquitectura separada funciona correctamente.');
+        console.log('Botón presionado con éxito.');
+    });
+
+    // Efecto simple de scroll suave para los enlaces
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
